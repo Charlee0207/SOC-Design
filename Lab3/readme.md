@@ -320,6 +320,13 @@ Slack (MET) :             0.001ns  (required time - arrival time)
 
 ## Simulation Waveform
 
+
+### Latency cycles
+
+15003 cycles to finish the testbench
+
+![](https://hackmd.io/_uploads/SyTKhnLM6.png)
+
 ### Programming coefficient, and checking
 
 
@@ -394,7 +401,7 @@ Since we use `bram11` for storing length and shift data, we must maintain the da
 | -------- |
 |![](https://hackmd.io/_uploads/rkHWjoIz6.png)| 
 
-| FSM state after ap_start programmed| 
+| FSM state before ap_done programmed| 
 | -------- |
 |![](https://hackmd.io/_uploads/BJOGsjIza.png)|
 
