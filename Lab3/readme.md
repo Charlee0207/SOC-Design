@@ -80,7 +80,7 @@ Its workflow can be summarized as follows:
 
 
 
-```verilog=
+```verilog
 //***Handling write address channel***
 // Check awvalid and write status, and assert awready
 if(awvalid && !write_flag) begin   
@@ -152,7 +152,7 @@ At `cycle_counter = 0`, we feed the initial bram address. The bram data is avail
 
 In this implementaion, we use a 11DW bram, the `0x00` is used to store `length`. To maintain the shift data order, we use `data_index` to indicate the position and update at `CHECK_LEN` state.
 
-```verilog=
+```verilog
 // ... other operation
 else if(FSM_cur_state==FIR_COMP)begin
     case(cycle_counter)
