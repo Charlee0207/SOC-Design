@@ -18,6 +18,7 @@ Define the taps numbers and input data
 ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/3b45357e-9fd1-4278-960b-b374d0830e41)
 
 2.  `fir.c`
+   
    i.   `void initfir()`
 
 This is to reset the input and output buffers before doing fir conputing.
