@@ -1,0 +1,23 @@
+chngh@chngh:~/Desktop/SOC_design/Lab4/lab4-2/lab-caravel_fir/testbench/counter_la_fir$ bash run_sim 
+Reading counter_la_fir.hex
+counter_la_fir.hex loaded into memory
+Memory 5 bytes = 0x6f 0x00 0x00 0x0b 0x13
+VCD info: dumpfile counter_la_fir.vcd opened for output.
+Golden is : 76
+FIR Test started
+========== FIR round 1 start ==========
+[PASS] Result of this round of FIR: 76
+Latency of this round of FIR:      40257
+
+
+========== FIR round 2 start ==========
+[PASS] Result of this round of FIR: 76
+Latency of this round of FIR:      39141
+
+
+========== FIR round 3 start ==========
+[PASS] Result of this round of FIR: 76
+Latency of this round of FIR:      39160
+
+
+FIR Test finished
