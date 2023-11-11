@@ -1,8 +1,8 @@
 # Execute FIR code in user BRAM
 
-## Simulation for FIR
+## Simulation for Lab4-2
 ```sh
-cd ~/caravel-soc_fpga-lab/lab-exmem-fir/testbench/counter_la_fir
+cd ~/testbench/counter_la_fir
 source run_clean
 source run_sim
 ```
