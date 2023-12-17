@@ -1,0 +1,74 @@
+Reading lab6.hex
+lab6.hex loaded into memory
+Memory 5 bytes = 0x6f 0x00 0x00 0x0b 0x13
+VCD info: dumpfile lab6.vcd opened for output.
+Test Started
+Test Started
+
+UART Test 1 started
+
+FIR Test started
+tx data bit index 0: 1 at              3281229
+tx data bit index 1: 1 at              3385395
+tx data bit index 2: 1 at              3489561
+tx data bit index 3: 1 at              3593727
+tx data bit index 4: 0 at              3697893
+tx data bit index 5: 0 at              3802059
+tx data bit index 6: 0 at              3906225
+tx data bit index 7: 0 at              4010391
+tx complete 1
+UART receive passed
+rx data bit index 0: 1 at 	             4843719
+rx data bit index 1: 1 at 	             4947885
+rx data bit index 2: 1 at 	             5052051
+rx data bit index 3: 1 at 	             5156217
+rx data bit index 4: 0 at 	             5260383
+rx data bit index 5: 0 at 	             5364549
+rx data bit index 6: 0 at 	             5468715
+rx data bit index 7: 0 at 	             5572881
+transmission passed; recevied word  15 at              5677047
+FIR Test passed
+
+MM Test started
+Call function matmul() in User Project BRAM, return value passed, 0x003e
+Call function matmul() in User Project BRAM, return value passed, 0x0044
+Call function matmul() in User Project BRAM, return value passed, 0x004a
+
+UART Test 2 started
+Call function matmul() in User Project BRAM, return value passed, 0x0050
+MM Test passed
+
+QS Test started
+tx data bit index 0: 1 at              8281197
+tx data bit index 1: 0 at              8385363
+tx data bit index 2: 1 at              8489529
+tx data bit index 3: 1 at              8593695
+tx data bit index 4: 1 at              8697861
+Call function qsort() in User Project BRAM, return value passed, 0x0028
+tx data bit index 5: 1 at              8802027
+Call function qsort() in User Project BRAM, return value passed, 0x037d
+Call function qsort() in User Project BRAM, return value passed, 0x09ed
+Call function qsort() in User Project BRAM, return value passed, 0x0a6d
+tx data bit index 6: 0 at              8906193
+tx data bit index 7: 0 at              9010359
+QS Test passed
+
+QS Test started
+tx complete 2
+UART receive passed
+rx data bit index 0: 1 at 	             9843687
+rx data bit index 1: 0 at 	             9947853
+rx data bit index 2: 1 at 	            10052019
+rx data bit index 3: 1 at 	            10156185
+rx data bit index 4: 1 at 	            10260351
+rx data bit index 5: 1 at 	            10364517
+rx data bit index 6: 0 at 	            10468683
+rx data bit index 7: 0 at 	            10572849
+transmission passed; recevied word  61 at             10677015
+Call function qsort() in User Project BRAM, return value passed, 0x0028
+Call function qsort() in User Project BRAM, return value passed, 0x037d
+Call function qsort() in User Project BRAM, return value passed, 0x09ed
+Call function qsort() in User Project BRAM, return value passed, 0x0a6d
+QS Test passed
+
+Test Passed
