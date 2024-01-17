@@ -1,5 +1,8 @@
 # SOC-Design Lab4-1 FIR
 
+###### [github link](https://github.com/Charlee0207/SOC-Design/tree/main/Lab4-1)
+
+###### [report link](https://hackmd.io/ZRIFy4t8Rai-nfZyGJMa9A?both)
 
 ###### NTHU SoC Design Group 8
 
@@ -21,7 +24,7 @@ Define the taps numbers and input data
    
    i.   `void initfir()`
 
-This is to reset the input and output buffers before doing fir conputing.
+This is to reset the input and output buffers before doing fir computing.
 ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/885e1b29-b3ab-4eba-82a9-b45ce0f1aea3)
 
    ii.  `Int* fir()`
