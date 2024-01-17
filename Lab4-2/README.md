@@ -2,7 +2,7 @@
 
 ###### [github link](https://github.com/Charlee0207/SOC-Design/tree/main/Lab4-2)
 
-###### [report link](https://hackmd.io/hVM9OsonQmqcCYmGOUGGtg)
+###### [report link](https://hackmd.io/x67Rfj7wQZ-Ni1bcdfIPxw)
 
 ###### NTHU SoC Design Group 8, EECS24 109020014 李承澔
 
@@ -63,13 +63,10 @@ ex. input output into fir function can greatly reduce the latency.
 ## Utilization
 
 
-| ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/70234fa8-1c55-46ed-a472-09d4a81e20d9)
-| 
+| ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/70234fa8-1c55-46ed-a472-09d4a81e20d9)| 
 | -------- | 
-| ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/1374589c-e1e0-4db0-be2e-23f6a592f08c)
- | 
-| ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/0661399a-122c-4c96-a539-fa48c583e68d)
- |
+| ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/1374589c-e1e0-4db0-be2e-23f6a592f08c) | 
+| ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/0661399a-122c-4c96-a539-fa48c583e68d) |
 
 
 ## Timing
