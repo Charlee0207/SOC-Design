@@ -19,7 +19,8 @@ source run_sim
 ```
 
 ## Block Diagram
-![image](https://hackmd.io/_uploads/SkSTANSKa.png)
+![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/a327a270-e11e-4dba-90f3-2b15e9bc7ec8)
+
 
 ## Handshaking between firmware and design
 1. Outputs start with Mark (A5) on mprj[23:16] to notify Testbench to
@@ -56,36 +57,45 @@ Instead of define function outside the main function writing the function
 ex. input output into fir function can greatly reduce the latency.
 
 ## Simulation Log
-![image](https://hackmd.io/_uploads/SklFxBHYa.png)
+![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/e893aeca-de69-4a25-9375-6a8388db6008)
+
 
 ## Utilization
 
 
-| ![image](https://hackmd.io/_uploads/BkCYgSStp.png) | 
+| ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/70234fa8-1c55-46ed-a472-09d4a81e20d9)
+| 
 | -------- | 
-| ![image](https://hackmd.io/_uploads/Hk4ilBBFp.png) | 
-| ![image](https://hackmd.io/_uploads/BJPjgHBK6.png) |
+| ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/1374589c-e1e0-4db0-be2e-23f6a592f08c)
+ | 
+| ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/0661399a-122c-4c96-a539-fa48c583e68d)
+ |
 
 
 ## Timing
-![image](https://hackmd.io/_uploads/HkxLAgSHta.png)
+![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/f81253c3-3de7-42e5-8ec7-ae6748221532)
+
 
 ## Waveform
 In this design we have 3 sets of data transfer to the fir design and
 every set have 64 data added into design
 
 3 set of data
-![image](https://hackmd.io/_uploads/HkqlbHStT.png)
+![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/7d520e2d-1b2d-4d0a-82af-4a3b8d993418)
+
 
 zoom out of the picture above
-![image](https://hackmd.io/_uploads/rJObZHHKp.png)
+![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/6e09de98-dbd7-4ef0-8cec-47da96a97ea2)
+
 
 `tap_ram` and `data_ram` waveform, the data
 is accurately write into the ram that we defined
-![image](https://hackmd.io/_uploads/H1J4bSrtT.png)
+![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/ddf22db2-7121-43a2-b447-455b268564fc)
+
 
 Wishbone to AXI
-![image](https://hackmd.io/_uploads/H1YBZBBF6.png)
+![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/c835e35a-0e66-4f23-9a21-23ea084b48f9)
+
 
 
 ## Review
