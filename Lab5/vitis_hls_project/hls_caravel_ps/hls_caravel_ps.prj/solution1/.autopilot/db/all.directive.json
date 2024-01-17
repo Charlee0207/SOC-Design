@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "caravel_ps",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "caravel_ps"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/chngh/Desktop/SOC_design/Lab5/vitis_hls_project/hls_caravel_ps/run_hls.tcl",
+    "sourceLine": 42,
+    "success": true
+  }
+]

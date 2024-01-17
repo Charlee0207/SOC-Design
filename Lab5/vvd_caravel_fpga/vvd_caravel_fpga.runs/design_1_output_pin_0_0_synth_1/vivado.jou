@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Nov 25 02:01:15 2023
+# Process ID: 53566
+# Current directory: /home/chngh/Desktop/SOC_design/Lab5/vvd_caravel_fpga/vvd_caravel_fpga.runs/design_1_output_pin_0_0_synth_1
+# Command line: vivado -log design_1_output_pin_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_output_pin_0_0.tcl
+# Log file: /home/chngh/Desktop/SOC_design/Lab5/vvd_caravel_fpga/vvd_caravel_fpga.runs/design_1_output_pin_0_0_synth_1/design_1_output_pin_0_0.vds
+# Journal file: /home/chngh/Desktop/SOC_design/Lab5/vvd_caravel_fpga/vvd_caravel_fpga.runs/design_1_output_pin_0_0_synth_1/vivado.jou
+# Running On: chngh, OS: Linux, CPU Frequency: 3669.053 MHz, CPU Physical cores: 4, Host memory: 16439 MB
+#-----------------------------------------------------------
+source design_1_output_pin_0_0.tcl -notrace

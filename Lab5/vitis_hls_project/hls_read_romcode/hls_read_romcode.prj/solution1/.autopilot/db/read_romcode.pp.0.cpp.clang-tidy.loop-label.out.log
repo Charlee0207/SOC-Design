@@ -1,0 +1,5 @@
+/home/chngh/Desktop/SOC_design/Lab5/vitis_hls_project/hls_read_romcode/hls_read_romcode.prj/solution1/.autopilot/db/read_romcode.pp.0.cpp:182:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+ for(i = 0; i < length; i++) {
+ ^~~
+ VITIS_LOOP_31_1: 
+/home/chngh/Desktop/SOC_design/Lab5/vitis_hls_project/hls_read_romcode/hls_read_romcode.prj/solution1/.autopilot/db/read_romcode.pp.0.cpp:182:2: note: FIX-IT applied suggested code changes

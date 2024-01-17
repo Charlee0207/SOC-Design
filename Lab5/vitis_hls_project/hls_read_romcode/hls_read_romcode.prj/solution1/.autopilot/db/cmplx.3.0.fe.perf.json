@@ -1,0 +1,14 @@
+{
+  "0": {
+    "basicblocks": 5,
+    "calls": "",
+    "file": "read_romcode.cpp",
+    "fileloc": 13,
+    "instructions": 26,
+    "name": "read_romcode",
+    "stores": {
+      "T": 1
+    },
+    "total_instructions": 26
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "0": {
+        "name": "output_pin",
+        "file": "output_pin.cpp",
+        "fileloc": "5",
+        "instructions": "10",
+        "total_instructions": "10",
+        "calls": "",
+        "basicblocks": "1"
+    }
+}

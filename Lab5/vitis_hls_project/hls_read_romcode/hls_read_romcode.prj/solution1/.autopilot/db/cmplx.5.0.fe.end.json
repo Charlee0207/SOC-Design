@@ -1,0 +1,21 @@
+{
+    "0": {
+        "name": "read_romcode",
+        "file": "read_romcode.cpp",
+        "fileloc": "13",
+        "instructions": "49",
+        "total_instructions": "49",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2",
+            "T": "1"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

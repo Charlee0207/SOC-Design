@@ -1,0 +1,26 @@
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: src/caravel_ps.cpp, Line: 47, Column: 19 }
+Function:        _Z10caravel_ps7ap_uintILi38EERS0_S1_S1_S0_S0_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_47_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: src/caravel_ps.cpp, Line: 27, Column: 0 }
+Function:        _Z10caravel_ps7ap_uintILi38EERS0_S1_S1_S0_S0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_47_1
+  - String:          ''' ('
+  - LoopLoc:         'src/caravel_ps.cpp:47:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          caravel_ps
+  - String:          ''' completely with a factor of '
+  - Factor:          '38'
+...

@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "output_pin",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "output_pin"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/chngh/Desktop/SOC_design/Lab5/vitis_hls_project/hls_output_pin/run_hls.tcl",
+    "sourceLine": 42,
+    "success": true
+  }
+]

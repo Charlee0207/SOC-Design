@@ -1,0 +1,108 @@
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: src/read_romcode.cpp, Line: 31, Column: 19 }
+Function:        _Z12read_romcodePiS_i
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        romcode3seq
+  - ArrayName:       romcode
+  - String:          ' '
+  - BundleName:      BUS0
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_31_1
+  - String:          ' '
+  - LoopLoc:         'src/read_romcode.cpp:31:19'
+  - String:          ' '
+  - Function:        'read_romcode(int*, int*, int)'
+    DebugLoc:        { File: src/read_romcode.cpp, Line: 18, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: src/read_romcode.cpp, Line: 33, Column: 21 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.load.4
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualThreshold
+DebugLoc:        { File: src/read_romcode.cpp, Line: 31, Column: 19 }
+Function:        _Z12read_romcodePiS_i
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i32
+  - String:          ' size is greater than or equal to the max_widen_bitwidth threshold of '
+  - Threshold:       '0'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: src/read_romcode.cpp, Line: 31, Column: 19 }
+  - OrigDirection:   read
+  - OrigID:          romcode3seq
+  - ArrayName:       romcode
+  - String:          ' '
+  - BundleName:      BUS0
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_31_1
+  - String:          ' '
+  - LoopLoc:         'src/read_romcode.cpp:31:19'
+  - String:          ' '
+  - Function:        'read_romcode(int*, int*, int)'
+    DebugLoc:        { File: src/read_romcode.cpp, Line: 18, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: src/read_romcode.cpp, Line: 31, Column: 19 }
+Function:        _Z12read_romcodePiS_i
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length and bit width '
+  - Width:           '32'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      BUS0
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_31_1
+  - String:          ' '
+  - LoopLoc:         'src/read_romcode.cpp:31:19'
+  - String:          ' '
+  - Function:        'read_romcode(int*, int*, int)'
+    DebugLoc:        { File: src/read_romcode.cpp, Line: 18, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: src/read_romcode.cpp, Line: 31, Column: 19 }
+Function:        _Z12read_romcodePiS_i
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length and bit width '
+  - Width:           '32'
+  - String:          ' in loop '''
+  - LoopName:        VITIS_LOOP_31_1
+  - String:          '''('
+  - LoopLoc:         'src/read_romcode.cpp:31:19'
+  - String:          ')'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      BUS0
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...

@@ -1,0 +1,19 @@
+{
+  "0": {
+    "basicblocks": 117,
+    "calls": "",
+    "file": "caravel_ps.cpp",
+    "fileloc": 16,
+    "instructions": 554,
+    "loads": {
+      "L": 39,
+      "T": 38
+    },
+    "name": "caravel_ps",
+    "stores": {
+      "L": 2,
+      "T": 40
+    },
+    "total_instructions": 554
+  }
+}
