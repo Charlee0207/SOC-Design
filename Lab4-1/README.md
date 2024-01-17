@@ -2,7 +2,7 @@
 
 ###### [github link](https://github.com/Charlee0207/SOC-Design/tree/main/Lab4-1)
 
-###### [report link](https://hackmd.io/ZRIFy4t8Rai-nfZyGJMa9A?both)
+###### [report link](https://hackmd.io/t2MGdG8YR6KK3hUI9ARmEw)
 
 ###### NTHU SoC Design Group 8
 
