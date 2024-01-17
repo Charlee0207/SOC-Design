@@ -2,7 +2,7 @@
 
 ###### [github link](https://github.com/Charlee0207/SOC-Design/tree/main/Lab4-2)
 
-###### [report link](https://hackmd.io/x67Rfj7wQZ-Ni1bcdfIPxw)
+###### [report link](https://hackmd.io/hVM9OsonQmqcCYmGOUGGtg)
 
 ###### NTHU SoC Design Group 8, EECS24 109020014 李承澔
 
