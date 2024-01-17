@@ -1,10 +1,14 @@
-# SOC-Design Lab4-1 FIR
+# SOC-Design Lab4-1: FIR Firmware
 
 ###### [github link](https://github.com/Charlee0207/SOC-Design/tree/main/Lab4-1)
 
 ###### [report link](https://hackmd.io/t2MGdG8YR6KK3hUI9ARmEw)
 
-###### NTHU SoC Design Group 8
+###### NTHU SoC Design Group 8, EECS24 109020014 李承澔
+
+## Brief introduction
+This lab focuses on implementing an FIR firmware C code based on [caravel-SOC project](https://github.com/bol-edu/caravel-soc_fpga). We will compile and link the firmware to a specific address, which is corresponding to the user project address spcase.
+Finally, we will run the `caravel-SOC` testbench to load the firmware assembly code and launch the RISC-V core to do the FIR computation.
 
 ## How to use
 
@@ -73,10 +77,5 @@ we assign a signal Sel as wbs_adr_i[31:23] is 9’h070 (9’b001110000) to deter
 
 ### Memory
 ![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/858b62f9-ce3a-4a17-9d10-0e35ec23133d)
-
-
-
-
-
 
 
