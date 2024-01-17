@@ -1,4 +1,4 @@
-![image](https://github.com/Charlee0207/SOC-Design/assets/85032763/82ed9ba2-f145-4990-a9c5-8796253e248f)# SOC-Design Lab5: Build Vivado Project for Caravel-FPGA
+# SOC-Design Lab5: Build Vivado Project for Caravel-FPGA
 
 ###### [github link](https://github.com/Charlee0207/SOC-Design/tree/main/Lab5)
 
