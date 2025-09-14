@@ -1,4 +1,4 @@
-# SOC-Study
+# SOC-Design
 
 ###### NTHU SoC Design Group 8, EECS24 109020014 李承澔
 This is the study log about SOC design course.
